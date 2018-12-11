@@ -1,0 +1,193 @@
+/*this is code of text alignement*/
+
+ p, h1,h3 {
+    text-align:center;
+    color:black;
+}
+
+/*this img background */
+img{
+position:absolute;
+left:opx;
+top:0px;
+z-index:-2;
+}
+
+/*this is the background for body*/
+body
+{
+		background-color:yellow;
+}
+/* text color */
+h1, h2, h3{
+	color: black;
+}
+/*img border */
+
+img {
+    border-radius:20%
+}
+
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+   /*navigation bar horizontal */
+   
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*float property*/
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* change the link coloron hover*/
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+
+a[target] {
+    background-color: yellow;
+}
+/* set font size  with pixels*/
+
+ h2 {
+font-size:50px;
+}
+h1,h3 {
+font-size:30px;
+}
+p {
+font-size:20px;
+}
+h2,h1,h3{
+background-color:light blue;
+}
+h1,h3 {
+   align:center;
+}
+
+/* table */
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+
+
+.row{
+      
+      display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	  }
+	  
+.side{
+       flex: 30%;
+	   background: GRAY;
+	   padding: 20px;
+	   }
+	   
+.main{
+      flex: 70%;
+	  background: #FF0000;
+	   padding: 20px;
+	   margin-center: 15px;
+	   }
+	   
+	   
+.fakeimg{
+           background: gray;
+		    width: 100%;
+			padding: 40px;
+			 margin-center: 10px;
+			 }
+      
+
+}
+
+/* Style The Dropdown Button */
+.beekeeping {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.beekeeping {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.beekeeping-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.beekeeping-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.beekeeping-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.beekeeping:hover .beekeeping-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.beekeeping:hover .beekeeping {
+    background-color: #3e8e41;
+}
+
+
